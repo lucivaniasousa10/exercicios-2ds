@@ -1,0 +1,36 @@
+.profile-card {
+  background-color: #1a1a24;
+  border: 1px solid #2e2e40;
+  border-radius: 16px;
+  padding: 24px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.profile-card h2 {
+  font-size: 1rem;
+  color: #f0f0f8;
+}
+
+.profile-card p {
+  font-size: 0.85rem;
+  color: #8888aa;
+}
+
+.profiles-container {
+  display: flex;
+  gap: 24px;
+  padding: 48px;
+  justify-content: center;
+}
