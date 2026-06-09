@@ -26,3 +26,11 @@ Responda:
 3. Como essa ideia poderia ser testada rapidamente?
 
 Crie sua resposta abaixo:
+1. Qual é o problema?
+   A biblioteca da escola tem poucos espaços para os alunos estudarem em grupo e fazerem trabalhos.
+
+2. Qual ideia simples poderia melhorar isso?
+   Criar uma área com mesas e cadeiras organizadas para trabalhos em equipe, além de um quadro para anotações.
+
+3. Como essa ideia poderia ser testada rapidamente?
+   A escola poderia separar uma parte da biblioteca por uma semana e observar quantos alunos utilizam o espaço, além de pedir opiniões por meio de uma pesquisa simples.
