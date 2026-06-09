@@ -1,85 +1,11 @@
-# 📘 AULA 41: INTRODUÇÃO AO REACT E AO VIRTUAL DOM
+# 1. O que é React?
+   React é uma biblioteca JavaScript criada para desenvolver interfaces de usuário em sites e aplicações web.
 
-⏱️ **Duração:** 50 minutos
-
-# 🎯 Objetivos da Aula
-
-- Entender o que é o React.
-- Compreender o conceito de **biblioteca vs framework**.
-- Entender o que é o **Virtual DOM**.
-- Comparar DOM tradicional vs React.
-
-# 📚 O que é React?
-
-O React é uma **biblioteca JavaScript** criada pelo Facebook para construir interfaces.
-
-👉 Ele é usado para criar:
-
-- Sites interativos
-- Sistemas web
-- Aplicações modernas
-
-# ⚙️ Biblioteca vs Framework
-
-- **Biblioteca (React):** você escolhe como usar
-- **Framework (Angular):** já define estrutura completa
-
-# 🌐 DOM Tradicional
-
-Quando usamos JavaScript puro:
-
-```jsx
-const titulo = document.getElementById("titulo");
-titulo.textContent = "Novo título";
-```
-
-👉 Problema:
-
-- Atualizações são **mais lentas**
-- Código fica **complexo em projetos grandes**
-
-# ⚡ Virtual DOM
-
-O React utiliza o **Virtual DOM**.
-
-👉 Ele funciona assim:
-
-1. Cria uma cópia do DOM na memória
-2. Faz alterações nessa cópia
-3. Atualiza **apenas o que mudou na tela**
-
-# 📊 Comparação
-
-| DOM Normal | Virtual DOM |
-| --- | --- |
-| Atualiza tudo | Atualiza só o necessário |
-| Mais lento | Mais rápido |
-| Mais complexo | Mais organizado |
-
-# 🧠 Por que usar React?
-
-- Organização em componentes
-- Código reutilizável
-- Melhor performance
-- Muito usado no mercado
-
-Fim da aula!
-
-_
-
-# 📝 Atividade Rápida
-
-## 📌 Introdução ao React
-
-Tespondendo as perguntas abaixo:
-
----
-
-Perguntas:
-
-1. O que é React?
 2. React é biblioteca ou framework?
-3. O que é Virtual DOM?
-4. Qual a vantagem do Virtual DOM?
+   React é uma **biblioteca**, pois permite que o desenvolvedor escolha como organizar e utilizar as ferramentas do projeto.
 
-Crie sua resposta abaixo:
+3. O que é Virtual DOM?
+   O Virtual DOM é uma cópia do DOM real criada na memória, usada pelo React para controlar e comparar alterações na interface.
+
+4. Qual a vantagem do Virtual DOM?
+   A principal vantagem é que ele atualiza apenas os elementos que foram modificados, tornando a aplicação mais rápida e eficiente.
