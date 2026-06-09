@@ -23,4 +23,12 @@ Responda:
 2. O que prejudica a colaboração em equipe?
 3. Por que diferentes opiniões podem melhorar uma solução?
 
-Crie sua resposta abaixo:
+Crie sua resposta abaixo: 
+1. Como um grupo pode garantir que todos participem?
+   O grupo pode ouvir a opinião de todos, dividir as tarefas de forma equilibrada e incentivar cada integrante a contribuir com ideias.
+
+2. O que prejudica a colaboração em equipe?
+   A falta de respeito, a má comunicação e quando algumas pessoas não deixam os outros participarem das decisões.
+
+3. Por que diferentes opiniões podem melhorar uma solução?
+   Porque cada pessoa tem experiências e ideias diferentes, o que ajuda a encontrar soluções mais criativas e eficientes para os problemas.
