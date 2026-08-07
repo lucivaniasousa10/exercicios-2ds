@@ -146,11 +146,11 @@ Cada objeto possui seus próprios atributos.
 
 Fim da aula!
 
-_
+
 
 # 🧩 Exercício Rápido
-
-### 💬 Criando duas instâncias
+# 💬 Criando duas i
+##nstâncias
 
 Crie uma classe chamada `Animal`.
 

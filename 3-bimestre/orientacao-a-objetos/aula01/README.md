@@ -188,20 +188,4 @@ _
 
 # 🧩 Exercício Rápido
 
-### 💬 Criando um objeto
-
-Crie um arquivo chamado `index.js`. Após isso, Crie um objeto chamado `filme`.
-
-Ele deverá possuir as seguintes propriedades:
-
-- titulo, com valor Interestelar
-- diretor, com valor Christopher Nolan
-- ano, com valor 2014
-
-E um método chamado `apresentar()` que deverá retornar:
-
-```
-Filme: <titulo>
-```
-
-No final, exporte o objeto com `module.exports = filme`.
+ 

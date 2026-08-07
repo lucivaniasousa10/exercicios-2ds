@@ -1,0 +1,15 @@
+class Filme {
+  constructor() {
+    this.titulo = "Interestelar";
+    this.diretor = "Christopher Nolan";
+    this.ano = 2014;
+  }
+
+  apresentar() {
+    return `Filme: ${this.titulo}`;
+  }
+}
+
+const filme = new Filme();
+
+module.exports = filme;
