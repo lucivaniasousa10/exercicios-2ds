@@ -1,4 +1,9 @@
-# 🎯 AULA 12 — CLASSES: VARIÁVEL / MÉTODO ESTÁTICO
+#
+const usuario2 = new Usuario("Carlos")
+const usuario3 = new Usuario("Maria")
+```
+
+deverá ser possível executar: 🎯 AULA 12 — CLASSES: VARIÁVEL / MÉTODO ESTÁTICO
 
 ## 🎯 Objetivos da Aula
 
@@ -627,11 +632,6 @@ Ao executar:
 
 ```jsx
 const usuario1 = new Usuario("Ana")
-const usuario2 = new Usuario("Carlos")
-const usuario3 = new Usuario("Maria")
-```
-
-deverá ser possível executar:
 
 ```jsx
 Usuario.quantidadeUsuarios()
