@@ -1,11 +1,11 @@
-const Ingresso = require("../class/Ingresso")
-const VIP = require("../class/VIP")
-const Pista = require("../class/Pista")
-const Camarote = require("../class/Camarote")
-const Setor = require("../class/Setor")
-const Evento = require("../class/Evento")
-const Venda = require("../class/Venda")
-const IngressoFactory = require("../class/IngressoFactory")
+const Ingresso = require("../class/Ingresso");
+const VIP = require("../class/Vip");
+const Pista = require("../class/Pista");
+const Camarote = require("../class/Camarote");
+const Setor = require("../class/Setor");
+const Evento = require("../class/Evento");
+const Venda = require("../class/Venda");
+const IngressoFactory = require("../class/IngressoFactory");
 
 test("Ingresso deve armazenar nomeDoPortador e codigoDoIngresso e possuir comportamento genérico", () => {
     const base = new Ingresso("Festival de Verão Base", 120)
