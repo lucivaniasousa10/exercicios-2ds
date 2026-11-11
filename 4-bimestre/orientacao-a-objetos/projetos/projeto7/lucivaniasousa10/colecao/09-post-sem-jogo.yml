@@ -1,0 +1,23 @@
+info:
+  name: Recusar aluguel sem jogo
+  type: http
+  seq: 9
+http:
+  method: POST
+  url: http://localhost:3000/alugueis
+  body:
+    type: json
+    data: |-
+      {
+        "assinante": "Diego",
+        "dias": 5
+      }
+  auth: inherit
+runtime:
+  scripts:
+    - type: tests
+      code: |-
+        test("responde 400 com o erro de jogo obrigatorio", function() {
+          expect(res.status).to.equal(400);
+          expect(res.body.erro).to.equal("O campo jogo e obrigatorio");
+        });

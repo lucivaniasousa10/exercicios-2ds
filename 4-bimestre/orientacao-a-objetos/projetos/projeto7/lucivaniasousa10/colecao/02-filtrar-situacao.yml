@@ -1,0 +1,17 @@
+info:
+  name: Filtrar alugueis por situacao
+  type: http
+  seq: 2
+http:
+  method: GET
+  url: http://localhost:3000/alugueis?situacao=ativo
+  body:
+    type: none
+  auth: inherit
+runtime:
+  scripts:
+    - type: tests
+      code: |-
+        test("responde 200", function() {
+          expect(res.status).to.equal(200);
+        });

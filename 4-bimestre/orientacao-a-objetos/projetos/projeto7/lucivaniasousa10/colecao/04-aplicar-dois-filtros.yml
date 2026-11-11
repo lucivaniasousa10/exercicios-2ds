@@ -1,0 +1,17 @@
+info:
+  name: Aplicar os dois filtros
+  type: http
+  seq: 4
+http:
+  method: GET
+  url: http://localhost:3000/alugueis?situacao=ativo&diasMin=10
+  body:
+    type: none
+  auth: inherit
+runtime:
+  scripts:
+    - type: tests
+      code: |-
+        test("responde 200", function() {
+          expect(res.status).to.equal(200);
+        });

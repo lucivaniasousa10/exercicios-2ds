@@ -1,0 +1,23 @@
+info:
+  name: Criar aluguel valido
+  type: http
+  seq: 7
+http:
+  method: POST
+  url: http://localhost:3000/alugueis
+  body:
+    type: json
+    data: |-
+      {
+        "assinante": "Diego",
+        "jogo": "Celeste",
+        "dias": 5
+      }
+  auth: inherit
+runtime:
+  scripts:
+    - type: tests
+      code: |-
+        test("responde 201", function() {
+          expect(res.status).to.equal(201);
+        });
